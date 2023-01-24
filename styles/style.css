@@ -11,6 +11,27 @@
 	height:500px;
 	border-radius:10px;
     background-repeat: no-repeat;
-
-    
 }
+.carousel-item{
+
+	height:500px;
+	border-radius:10px;
+	
+}
+.carousel-item::before{
+	content:"";
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	background:black;
+	height:500px;
+	opacity:0.7;
+	
+}
+.carousel-caption{
+	position:absolute;
+}
+
