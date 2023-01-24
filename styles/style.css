@@ -34,4 +34,12 @@
 .carousel-caption{
 	position:absolute;
 }
+.list-unstyled li a{
+	text-decoration:none;
+	
+}
+.list-unstyled li a:hover{
+	text-decoration:underline;
+}
+
 
