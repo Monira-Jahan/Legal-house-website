@@ -6,3 +6,11 @@
 .nav-brand img{
     margin-left:100px;
 }
+.bg-image{
+	background-image:url('../images/banner.png');
+	height:500px;
+	border-radius:10px;
+    background-repeat: no-repeat;
+
+    
+}
